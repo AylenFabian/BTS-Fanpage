@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #5b5dbe;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+span,
+label,
+option,
+select {
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+/* Paleta de colores
+#130702 #fafafc #d8e73a #5b5dbe */
