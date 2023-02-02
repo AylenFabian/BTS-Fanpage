@@ -20,8 +20,8 @@
 
     <header>
 
-        <nav class="navbar fixed-top">
-            <div class="container-fluid">
+        <nav class="navbar position-relative z-1 p-0">
+            <div class="container-fluid position-absolute top-0 start-0">
                 <a class="navbar-brand" href="#">BTS</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -93,11 +93,11 @@
         </section>
 
         <section class="container p-3">
-            <div class="row">
-                <span class="text-center fs-2 mb-5 fw-bold" id="frase">- ¡I purple you!</span>
+            <div class="row row-gap-5">
+                <span class="text-center fs-2 fw-bold" id="frase">- ¡I purple you!</span>
                 <article class="col-md-7 p-4">
-                    <div class="pb-5">
-                        <h1 class="display-3 fw-bold">¿Quienes son?</h1>
+                    <div data-aos="fade-up" class="pb-5">
+                        <h1 class="display-4 fw-bold">¿Quienes son?</h1>
                         <h3 class="fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, veniam
                             animi nesciunt,
                             iste
@@ -105,8 +105,8 @@
                             dolores ipsam. Ex porro atque, iusto deleniti dolor velit dolorum nulla fugiat placeat
                             accusantium quisquam quis doloribus laboriosam ad voluptas reprehenderit quas esse!</h3>
                     </div>
-                    <div class="py-5">
-                        <h1 class="display-3 fw-bold">Sus inicios</h1>
+                    <div data-aos="fade-up" class="py-5">
+                        <h1 class="display-4 fw-bold">Sus inicios</h1>
                         <h3 class="fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, veniam
                             animi nesciunt,
                             iste
@@ -114,8 +114,8 @@
                             dolores ipsam. Ex porro atque, iusto deleniti dolor velit dolorum nulla fugiat placeat
                             accusantium quisquam quis doloribus laboriosam ad voluptas reprehenderit quas esse!</h3>
                     </div>
-                    <div class="py-5">
-                        <h1 class="display-3 fw-bold">¿Qué lograron?</h1>
+                    <div data-aos="fade-up" class="py-5">
+                        <h1 class="display-4 fw-bold">¿Qué lograron?</h1>
                         <h3 class="fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, veniam
                             animi nesciunt,
                             iste
@@ -127,55 +127,92 @@
 
 
 
-                <aside class="col-md-5 p-3" id="noticias">
+                <aside data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="800"
+                    data-aos-duration="1000" data-aos-easing="ease-in-sine" class="col-md-5 p-3" id="noticias">
                     <h2 class="display-6 fw-bold pb-3 text-center">Ultimas Noticias</h2>
 
-                    <div class="card m-3" style="width: 14rem;">
-                        <img src="./img/noticias-1.jpg" class="card-img-top" alt="Película de BTS">
-                        <div class="card-body">
-                            <h5 class="card-title">BTS en la pantalla grande</h5>
-                            <a href="#" class="btn">Ver más</a>
+                    <div class="row row-gap-4 m-3">
+                        <div class="col-sm-6 mb-3 mb-sm-0">
+                            <div class="card">
+                                <img src="./img/noticias-1.jpg" class="card-img-top" alt="Película de BTS">
+                                <div class="card-body">
+                                    <h5 class="card-title">BTS en la pantalla grande con su película</h5>
+                                    <a href="#" class="btn">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <img src="./img/noticias-2.jpg" class="card-img-top" alt="Fotografia de Jimin y J-hope">
+                                <div class="card-body">
+                                    <h5 class="card-title">Jimin y Jhope en el Paris Fashion Week</h5>
+                                    <a href="#" class="btn">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <img src="./img/noticias-3.jpg" class="card-img-top" alt="Fotografia de Suga">
+                                <div class="card-body">
+                                    <h5 class="card-title">Suga visto en las calles de Paris</h5>
+                                    <a href="#" class="btn">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <img src="./img/noticias-4.jpg" class="card-img-top" alt="Portada del album">
+                                <div class="card-body">
+                                    <h5 class="card-title">"Indigo" el nuevo álbum de RM</h5>
+                                    <a href="#" class="btn">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <img src="./img/noticias-5.png" class="card-img-top "
+                                    alt="Fotografia de Jin al despedirse del grupo">
+                                <div class="card-body">
+                                    <h5 class="card-title">Jin se despide e ingresa al servicio militar</h5>
+                                    <a href="#" class="btn">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 mb-3 mb-sm-0">
+                            <div class="card">
+                                <img src="./img/noticias-6.jpg" class="card-img-top" alt="Jungkook"">
+                                <div class=" card-body">
+                                <h5 class="card-title">Jungkook canta "Despacito" en español</h5>
+                                <a href="#" class="btn">Ver más</a>
+                            </div>
                         </div>
                     </div>
-
-                    <div class="card m-3" style="width: 14rem;">
-                        <img src="./img/noticias-2.jpg" class="card-img-top" alt="Fotografia de Jimin y J-hope">
-                        <div class="card-body">
-                            <h5 class="card-title">Jimin y Jhope embajadores de marcas famosas</h5>
-                            <a href="#" class="btn">Ver más</a>
-                        </div>
-                    </div>
-
-                    <div class="card m-3" style="width: 14rem;">
-                        <img src="./img/noticias-3.jpg" class="card-img-top" alt="Fotografia de Suga">
-                        <div class="card-body">
-                            <h5 class="card-title">Suga en Paris</h5>
-                            <a href="#" class="btn">Ver más</a>
-                        </div>
-                    </div>
-                    <div class="card m-3" style="width: 14rem;">
-                        <img src="./img/noticias-4.jpg" class="card-img-top" alt="Portada del album">
-                        <div class="card-body">
-                            <h5 class="card-title">"Indigo" el nuevo álbum de RM</h5>
-                            <a href="#" class="btn">Ver más</a>
-                        </div>
-                    </div>
-                    <div class="card m-3" style="width: 14rem;">
-                        <img src="./img/noticias-5.png" class="card-img-top " alt="Fotografia de Jin al despedirse del grupo">
-                        <div class="card-body">
-                            <h5 class="card-title">Jin se va al servicio militar</h5>
-                            <a href="#" class="btn">Ver más</a>
-                        </div>
-                    </div>
-
-                </aside>
+            </div>
+            </aside>
             </div>
         </section>
 
     </main>
 
     <footer>
-
+        <section class="pie-de-pagina">
+            <div>
+                <div class="container-fluid">
+                    <p class="fs-5 fw-bold text-center m-0">Redes Sociales</p>
+                </div>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Twitter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Instagram</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Weverse</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </footer>
 
     <section>
