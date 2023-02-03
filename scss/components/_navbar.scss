@@ -19,3 +19,15 @@
 .offcanvas-body {
     background-color: #c4a2f5;
 }
+
+.portada-estatica {
+
+    img {
+    width: 100%;
+    height: 10vh;
+    object-fit: cover;
+
+    padding: 0px;
+    margin: 0px;
+    }
+}
