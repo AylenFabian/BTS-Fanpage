@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -10,7 +10,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <link href="https://fonts.googleapis.com/css2? family=Berkshire+Swash&family=PT+Sans+Caption&display=swap"
         rel="stylesheet">
     <title>Integrantes</title>
@@ -20,9 +20,9 @@
 
     <header>
 
-        <nav class="navbar fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="../img/logo.png" alt="Logo de BTS" class="logo-bts"></a>
+        <nav class="navbar position-relative z-1 p-0">
+            <div class="container-fluid position-absolute top-0 start-0">
+                <a class="navbar-brand" href="#">BTS</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <span class="navbar-toggler-icon"></span>
@@ -39,10 +39,10 @@
                                 <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#">Perfil</a>
+                                <a class="nav-link" href="perfil.html">Perfil</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="discografia.html">Discografia</a>
+                                <a class="nav-link active" href="discografia.html">Discografia</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -72,53 +72,255 @@
             </div>
         </nav>
 
+        <div class="portada-estatica">
+            <img src="../img/portada-estatica.jpg" alt="Fotografia grupal">
+        </div>
+
     </header>
 
     <main>
 
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-                <div class="card h-100">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
+        <h1 class="integrantes display-5 fw-bold text-center p-3">Integrantes</h1>
+
+        <section>
+
+            <div data-aos="fade-up-right" class="card container" style="max-width: 540;">
+                <div class="row g-0">
+                    <div class="col-md-4 d-flex align-items-center object-fit-contain p-4">
+                        <img src="../img/rm-4.png" class="img-fluid rounded-circle" alt="Foto de usario">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body mt-4">
+                            <h2 class="card-title fs-3"><em> RM / Kim Nam-joon </em></h2>
+                            <br>
+                            <h3 class="card-text fs-5">
+                                Nació el 12 de septiembre de 1994 en Dongjak-gu. Es un rapero, compositor y productor
+                                surcoreano. Es el líder del grupo BTS. En 2015, lanzó su primer mixtape RM. Tiene muchos
+                                logros académicos notables.
+                            </h3>
+                            <br>
+                            <h3 class="card-text fs-5">Alcanzó un 850 en el TOEIC cuando estaba en secundaria,
+                                probablemente debido por haber estudiado en Nueva Zelanda. También estuvo en el top 1.3%
+                                de la nación en los exámenes de entrada a la universidad en lengua, matemática, idiomas
+                                extranjeros y ciencias sociales; además, tiene un CI de 148.
+                            </h3>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a short card.</p>
+
+            <div data-aos="fade-up-left" class="card container" style="max-width: 540;">
+                <div class="row g-0">
+
+                    <div class="col-md-4 d-flex align-items-center object-fit-contain p-4">
+                        <img src="../img/jin-1.png" class="img-fluid rounded-circle" alt="Foto de usario">
+                    </div>
+
+                    <div class="col-md-8">
+                        <div class="card-body mt-4">
+                            <h2 class="card-title fs-3"><em> Jin / Kim Seok-Jin </em></h2>
+                            <br>
+                            <h3 class="card-text fs-5">
+                                Nació el 4 de diciembre de 1992 en Anyang-Gwangcheon. Dentro del grupo  ocupa el puesto de vocalista, bailarín y visual. Ha participado como presentador en varios programas de música de Corea del Sur.
+                            </h3>
+                            <br>
+                            <h3 class="card-text fs-5">Kim ha coescrito y lanzado tres canciones en solitario con BTS, también apareció en la banda sonora del drama Hwarang (2016) junto a su compañero de grupo V. Por otro lado, él ha recibido elogios de los críticos por su falsete y su rango vocal como cantante.
+                            </h3>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content.</p>
+            
+            <div data-aos="fade-up-right" class="card container" style="max-width: 540;">
+                <div class="row g-0">
+
+                    <div class="col-md-4 d-flex align-items-center object-fit-contain p-4">
+                        <img src="../img/suga-5.jpg" class="img-fluid rounded-circle" alt="Foto de usario">
+                    </div>
+
+                    <div class="col-md-8">
+                        <div class="card-body mt-4">
+                            <h2 class="card-title fs-3"><em> Suga / Min Yoon-Gi </em></h2>
+                            <br>
+                            <h3 class="card-text fs-5">
+                                Nació el 9 de marzo de 1993 en la ciudad de Daegu. En el grupo ocupa el lugar de rapero, tambien es compositor, productor, cantante, modelo y bailarín. 
+                            </h3>
+                            <br>
+                            <h3 class="card-text fs-5">Empezó a interesarse por la música en quinto de primaria después de ver una actuación de Stony Skunk en televisión, y fue así como empezó a escuchar a grupos hip-hop. A los trece años comenzó a aprender a utilizar la tecnología MIDI y a escribir sus propias canciones.
+                            </h3>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
+            
+            <div data-aos="fade-up-left" class="card container" style="max-width: 540;">
+                <div class="row g-0">
+
+                    <div class="col-md-4 d-flex align-items-center object-fit-contain p-4">
+                        <img src="../img/jhope-1.jpg" class="img-fluid rounded-circle" alt="Foto de usario">
+                    </div>
+
+                    <div class="col-md-8">
+                        <div class="card-body mt-4">
+                            <h2 class="card-title fs-3"><em> J-Hope / Jung Ho-Seok </em></h2>
+                            <br>
+                            <h3 class="card-text fs-5">
+                                Nació el 18 de febrero de 1994 en Gwangju. Es un rapero, compositor, cantante, bailarín, coreógrafo y productor.
+                            </h3>
+                            <br>
+                            <h3 class="card-text fs-5">Lanzó su primer mixtape, Hope World, el 2 de marzo de 2018. El 27 de septiembre de 2019 publicó la canción «Chicken Noodle Soup», que contó con la participación de la cantante estadounidense Becky G. El tema ocupó el puesto 81 en la Billboard Hot 100, lo que lo convirtió en el primer integrante de BTS en entrar en la lista como solista.
+                            </h3>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+            
+            <div data-aos="fade-up-right" class="card container" style="max-width: 540;">
+                <div class="row g-0">
+
+                    <div class="col-md-4 d-flex align-items-center object-fit-contain p-4">
+                        <img src="../img/jimin-1.jpg" class="img-fluid rounded-circle" alt="Foto de usario">
+                    </div>
+
+                    <div class="col-md-8">
+                        <div class="card-body mt-4">
+                            <h2 class="card-title fs-3"><em> Jimin / Park Ji-Min </em></h5>
+                            <br>
+                            <h3 class="card-text fs-5">
+                                Nació el 13 de octubre de 1995 en Geumjeong-gu, Busan. Es un cantante, compositor, bailarín y modelo. Se graduó con una especialidad en Entretenimiento y Telecomunicación. A fecha de 2021, estudia una Maestría en Administración de Empresas.
+                            </h3>
+                            <br>
+                            <h3 class="card-text fs-5">Tomó clases en la Academia Just Dance, donde aprendió distintos tipo de baile urbano como popping y locking. Antes de convertirse en aprendiz, Jimin estudió en la Escuela Superior de Artes de Busan, donde practicó danza moderna; fue el estudiante más destacado de su departamento.
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div data-aos="fade-up-left" class="card container" style="max-width: 540;">
+                <div class="row g-0">
+
+                    <div class="col-md-4 d-flex align-items-center object-fit-contain p-4">
+                        <img src="../img/v-2.jpg" class="img-fluid rounded-circle" alt="Foto de usario">
+                    </div>
+
+                    <div class="col-md-8">
+                        <div class="card-body mt-4">
+                            <h2 class="card-title fs-3"><em> V / Kim Tae-Hyung </em></h2>
+                            <br>
+                            <h3 class="card-text fs-5">
+                                Nació el 30 de diciembre de 1995 en Seúl , Daegu. Es un cantante, compositor, bailarín, modelo, presentador y actor. Comenzó a aspirar a ser un cantante profesional en la escuela primaria, por lo que para lograrlo empezó a tomar clases de saxofón, con el apoyo de su padre.
+                            </h3>
+                            <br>
+                            <h3 class="card-text fs-5">Guinness World Records confirmó que V de BTS había batido los récords mundiales de tiempos más rápidos para alcanzar seguidores en Instagram. Acumuló 1 millón de seguidores en solo 43 minutos y acumuló 10 millones en solo 4 horas y 52 minutos.
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div data-aos="fade-up-right" class="card container" style="max-width: 540;">
+                <div class="row g-0">
+
+                    <div class="col-md-4 d-flex align-items-center object-fit-contain p-4">
+                        <img src="../img/jungkook-1.png" class="img-fluid rounded-circle" alt="Foto de usario">
+                    </div>
+
+                    <div class="col-md-8">
+                        <div class="card-body mt-4">
+                            <h2 class="card-title fs-3"><em> Jungkook / Jeon Jung-kook </em></h2>
+                            <br>
+                            <h3 class="card-text fs-5">
+                                Nació el 1 de septiembre de 1997, en Busan. Es un cantante y bailarín. Su apodo es "Golden Maknae" debido a sus numerosos talentos.
+                            </h3>
+                            <br>
+                            <h3 class="card-text fs-5">En 2011, Jungkook audicionó para participar en el programa de talentos Superstar K, a pesar de que no fue seleccionado, recibió ofertas de siete compañías de entretenimiento, entre ellas JYP Entertainment, Cube Entertainment, FNC Entertainment y Big Hit.
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- <div data-aos="zoom-in" class="card container" style="max-width: 540;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+
+                        <div style="max-width: 400px;" class="container">
+
+                            <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="../img/rm-1.jpg" class="d-block w-100 rounded-circle"
+                                            alt="Fotografia RM">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../img/rm-2.jpg" class="d-block w-100 rounded-circle"
+                                            alt="Fotografia RM">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../img/rm-3.jpg" class="d-block w-100 rounded-circle"
+                                            alt="Fotografia RM">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../img/rm-4.png" class="d-block w-100 rounded-circle"
+                                            alt="Fotografia RM">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../img/rm-5.jpg" class="d-block w-100 rounded-circle"
+                                            alt="Fotografia RM">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title fs-3"><em> RM / Kim Namjoon </em></h5>
+                            <h3 class="card-text fs-5">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eveniet quod sed, recusandae illum ipsa a dolor eligendi delectus et, laudantium veritatis sint unde voluptatum sequi fugit quo hic accusamus!
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+        </section>
 
     </main>
+
+    <footer>
+        <section class="pie-de-pagina-discografia">
+            <div>
+                <div class="container-fluid">
+                    <p class="fs-5 fw-bold text-center m-0">Redes Sociales</p>
+                </div>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Twitter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Instagram</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Weverse</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </footer>
 
     <section>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

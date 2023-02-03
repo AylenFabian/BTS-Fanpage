@@ -26,8 +26,7 @@ h5 {
   background-color: #482688;
 }
 
-/* Paleta de colores 
-#fffefb #e2daf7 #9663f4 #c4a2f5 */
+/* Paleta de colores #e2daf7 #9663f4 #c4a2f5 */
 .navbar-brand {
   color: #e2daf7;
   font-weight: bold;
@@ -278,6 +277,12 @@ aside .card:hover {
 
 .membresia {
   margin-top: 30px;
+}
+
+.integrantes {
+  background-color: #e2daf7;
+  color: #9663f4;
+  margin: 0px;
 }
 
 .discografia {
