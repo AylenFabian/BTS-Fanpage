@@ -5,10 +5,13 @@
     margin: 0px;
 }
 
-.titulo-integrantes {
+.card-title {
+    color: #482688;
+}
 
-    h2 {
+.card-title:hover {
 
+    
         -webkit-animation: text-shadow-drop-center 0.6s both;
         animation: text-shadow-drop-center 0.6s both;
 
@@ -26,23 +29,23 @@
  */
         @-webkit-keyframes text-shadow-drop-center {
             0% {
-                text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+                text-shadow: 0 0 0 #7645d3;
             }
 
             100% {
-                text-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
+                text-shadow: 0 0 18px #c09eff;
             }
         }
 
         @keyframes text-shadow-drop-center {
             0% {
-                text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+                text-shadow: 0 0 0 #7645d3;
             }
 
             100% {
-                text-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
+                text-shadow: 0 0 18px #b187ff;
             }
         }
 
-    }
+    
 }

@@ -10,11 +10,10 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
-    <title>Perfil</title>
+    <link href="https://fonts.googleapis.com/css2? family=Berkshire+Swash&family=PT+Sans+Caption&display=swap"
+        rel="stylesheet">
+    <title>Galeria</title>
 </head>
 
 <body>
@@ -40,7 +39,7 @@
                                 <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#">Perfil</a>
+                                <a class="nav-link" href="perfil.html">Perfil</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="discografia.html">Discografia</a>
@@ -60,7 +59,7 @@
                                     <li><a class="dropdown-item" href="integrantes.html">Jungkook</a></li>
                                 </ul>
                             <li class="nav-item">
-                                <a class="nav-link" href="galeria.html">Galeria</a>
+                                <a class="nav-link active" href="#">Galeria</a>
                             </li>
                             </li>
                         </ul>
@@ -81,52 +80,59 @@
 
     <main>
 
-        <section class="perfil container-fluid ">
-            <h1 class="display-5 fw-bold text-center p-3">Perfil</h1>
+        <section class="galeria container-fluid">
+            <div class="container">
+                <h1 class="display-4 fw-bold text-center p-3">Galería</h1>
 
-            <div data-aos="zoom-in" class="card container" style="max-width: 540;">
-                <div class="row g-0">
-                    <div class="col-md-4 d-flex align-items-center object-fit-contain">
-                        <img src="../img/foto-de-perfil.jpg" class="img-fluid rounded-circle" alt="Foto de usario">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title text-center text-lg-star fs-1"><em> Jhon Cena </em></h5>
-                            <h3 class="card-text fs-5">
-                                <span><strong> Pronombres:</strong> El/He</span>
-                                <span><strong> Descripción:</strong> Amante de los gatos, anelando ser guardespaldas de
-                                    BTS. Exculturista, actor, rapero y luchador profesional estadounidense.</span>
-                                <span><strong>Bias/Favorito:</strong> <span class="btn m-3"> Jimin</span>
-                                    <span class="btn m-3">Jungkook</span></span>
-                            </h3>
-                            <p class="card-text">Desde 19/07/2022</p>
+                <div class="dropdown m-4">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Filtros
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Recientes</a></li>
+                        <li><a class="dropdown-item" href="#">Antiguos</a></li>
+                        <li><a class="dropdown-item" href="#">Populares</a></li>
+                    </ul>
+                </div>
+
+                <div class="container">
+                    <div class="row p-2">
+                        <div class="col-lg-3 col-sm-6 mb-4">
+                            <img class="w-100 mb-4 rounded-5  object-fit-cover" src="../img/jungkook-7.jpg"
+                                alt="Jungkook">
+                            <img class="w-100 mb-4 rounded-5" src="../img/rm-7.png" alt="RM">
+                            <img class="w-100 mb-4 rounded-5" src="../img/v-6.jpg" alt="V">
+                            <img class="w-100 mb-4 rounded-5" src="../img/suga-6.jpg" alt="Suga">
+                        </div>
+                        <div class="col-lg-3 col-sm-6 mb-4">
+                            <img class="w-100 mb-4 rounded-5  object-fit-cover" src="../img/jimin-6.jpg" alt="Jimin">
+                            <img class="w-100 mb-4 rounded-5" src="../img/suga-7.jpg" alt="Suga">
+                            <img class="w-100 mb-4 rounded-5" src="../img/rm-8.jpg" alt="RM">
+                            <img class="w-100 mb-4 rounded-5" src="../img/jhope-6.jpg" alt="Jhope">
+                        </div>
+                        <div class="col-lg-3 col-sm-6 mb-4">
+                            <img class="w-100 mb-4 rounded-5  object-fit-cover" src="../img/jhope-7.jpg" alt="J-Hope">
+                            <img class="w-100 mb-4 rounded-5" src="../img/rm-6.jpg" alt="RM">
+                            <img class="w-100 mb-4 rounded-5" src="../img/jin-6.jpg" alt="Jin">
+                            <img class="w-100 mb-4 rounded-5" src="../img/jungkook-6.png" alt="Jungkook">
+                        </div>
+                        <div class="col-lg-3 col-sm-6 mb-4">
+                            <img class="w-100 mb-4 rounded-5  object-fit-cover" src="../img/jimin-8.png" alt="Jimin">
+                            <img class="w-100 mb-4 rounded-5" src="../img/jungkook-8.png" alt="Jungkook">
+                            <img class="w-100 mb-4 rounded-5" src="../img/v-8.jpg" alt="V">
+                            <img class="w-100 mb-4 rounded-5" src="../img/jin-7.jpg" alt="Jin">
                         </div>
                     </div>
                 </div>
-            </div>
+        </section>
 
-        </section>
-        <section data-aos="fade-up" class="membresia">
-            <div class="container">
-                <h1 class="display-5 fw-bold">Membresia</h1>
-                <h3 class="fs-5"><strong>Big Hit</strong> anunció e<strong>l club oficial de BTS GLOBAL
-                    </strong>y&nbsp;ya puedes adquirir tu membresía como fan del grupo, una vez que te inscribas
-                    recibirás varias sorpresas.</h3>
-                <h3 class="fs-5">Quienes deseen comprarla&nbsp;pueden adquirirla en el portal de Weply, tendrá una
-                    duración de un año y recibirás un <strong>kit de bienvenida, tu credencial de identificación del
-                        club, acceso a preventa de mercancía oficial y boletos para BTS</strong>, además de
-                    <strong>contenido exclusivo</strong>, como fotos y videos, en la comunidad de Weverse.
-                </h3>
-                <h2 class="fs-4 fw-bold pt-3">ARMY Membership. Precio: $22</h2>
-            </div>
-        </section>
-        <div id="boton-club-de-fans" class="container d-flex justify-content-center">
-            <a class="btn" href="#" role="button">UNIRSE</a>
-        </div>
+
+
     </main>
 
     <footer>
-        <section class="pie-de-pagina">
+        <section class="pie-de-pagina-discografia">
 
             <p class="fs-5 fw-bold text-center m-0">Redes Sociales</p>
 

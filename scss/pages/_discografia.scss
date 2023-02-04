@@ -1,5 +1,14 @@
 .discografia {
     background-color: #c4a2f5;
+
+    h1,
+    h2 {
+        color: white;
+    }
+
+    p {
+        color: #482688;
+    }
 }
 
 .card {
@@ -160,7 +169,6 @@
 }
 
 .navegacion {
-
     a{
     color: #9663f4;
     }
@@ -174,7 +182,7 @@
 .pie-de-pagina-discografia {
     margin-top: 0px;
     background-color: #9663f4;
-    height: 25vh;
+    height: 30vh;
 
     p {
         color: white;

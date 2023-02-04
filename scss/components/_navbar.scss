@@ -14,10 +14,12 @@
 
 .offcanvas-header {
     background-color: #c4a2f5;
+    padding-left: 30px;
 }
 
 .offcanvas-body {
     background-color: #c4a2f5;
+    padding-left: 30px;
 }
 
 .portada-estatica {
@@ -30,4 +32,29 @@
     padding: 0px;
     margin: 0px;
     }
+}
+
+nav {
+
+    h5 {
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .nav-link {
+        font-size: 18px;
+        color: white;
+    }
+}
+
+.form-control {
+    border-width: 1px;
+    border-color: #482688;
+    border-radius: 30px;
+}
+
+.dropdown-menu {
+    border-width: 1px;
+    border-color: #482688;
 }
