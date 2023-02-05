@@ -1,7 +1,6 @@
 .pie-de-pagina {
     background-color: #9663f4;
     margin-top: 30px;
-    height: 30vh;
 
     p {
         color: white;
@@ -11,8 +10,7 @@
 
     a {
         color: white;
-        margin-top: 5px;
-        margin-bottom: 5px;
+        margin: 5px 0px;
     }
 
     a:hover {
@@ -20,5 +18,26 @@
         background-color: #e2daf7;
         border-radius: 18px;
     }
+}
 
+.pie-de-pagina-discografia-galeria {
+    margin-top: 0px;
+    background-color: #9663f4;
+
+    p {
+        color: white;
+        padding-top: 25px;
+    }
+
+
+    a {
+        color: white;
+        margin: 5px 0px
+    }
+
+    a:hover {
+        color: #9663f4;
+        background-color: #e2daf7;
+        border-radius: 18px;
+    }
 }

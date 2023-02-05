@@ -33,8 +33,18 @@ h5 {
 }
 
 .btn:hover {
-  color: #c4a2f5;
+  color: #e2daf7;
   background-color: #482688;
+  border-color: #9663f4;
+}
+
+.btn-outline-success:active {
+  background-color: #482688;
+  border-color: #482688;
+}
+
+.btn-outline-success:disabled {
+  color: #9663f4;
   border-color: #9663f4;
 }
 
@@ -93,7 +103,6 @@ nav .nav-link {
 .pie-de-pagina {
   background-color: #9663f4;
   margin-top: 30px;
-  height: 30vh;
 }
 .pie-de-pagina p {
   color: white;
@@ -101,10 +110,27 @@ nav .nav-link {
 }
 .pie-de-pagina a {
   color: white;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin: 5px 0px;
 }
 .pie-de-pagina a:hover {
+  color: #9663f4;
+  background-color: #e2daf7;
+  border-radius: 18px;
+}
+
+.pie-de-pagina-discografia-galeria {
+  margin-top: 0px;
+  background-color: #9663f4;
+}
+.pie-de-pagina-discografia-galeria p {
+  color: white;
+  padding-top: 25px;
+}
+.pie-de-pagina-discografia-galeria a {
+  color: white;
+  margin: 5px 0px;
+}
+.pie-de-pagina-discografia-galeria a:hover {
   color: #9663f4;
   background-color: #e2daf7;
   border-radius: 18px;
@@ -327,6 +353,13 @@ aside .card:hover {
   margin: 0px;
 }
 
+.carousel-item h5 {
+  padding: 10px;
+  border-radius: 80px;
+  color: #482688;
+  background-color: rgba(192, 158, 255, 0.8901960784);
+}
+
 .card-title {
   color: #482688;
 }
@@ -507,25 +540,6 @@ aside .card:hover {
 .navegacion .active > .page-link, .navegacion .page-link.active {
   background-color: #9663f4;
   border-color: #9663f4;
-}
-
-.pie-de-pagina-discografia {
-  margin-top: 0px;
-  background-color: #9663f4;
-  height: 30vh;
-}
-.pie-de-pagina-discografia p {
-  color: white;
-  padding-top: 25px;
-}
-.pie-de-pagina-discografia a {
-  color: white;
-  margin: 12px 30px;
-}
-.pie-de-pagina-discografia a:hover {
-  color: #9663f4;
-  background-color: #e2daf7;
-  border-radius: 18px;
 }
 
 .galeria {
